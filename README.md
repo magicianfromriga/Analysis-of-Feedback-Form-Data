@@ -11,12 +11,12 @@ The datasets that were used for this task are:
 
 The specific methods used were as follows:
 
-Data Exploration:
+I) Data Exploration:
 1. Checking for duplicate entries.
 2. Changing column names for easier understanding.
 3. Check if any row/column is redundant due to the presence of missing values. 
 
-Data Cleaning:
+II) Data Cleaning:
 
 A) Software Use:
 1. Participants marked negative response when asked if they have used any software other than the specific software taught in the workshop, but entered the name of an alternative software in the following section.
@@ -31,7 +31,7 @@ B) Knowledge:
 4. Participants indicating reduced level of knowledge after screening task.
 5. Checking for positive feedback in negative descriptive questions and vice versa.
 
-Data Preprocessing:
+III) Data Preprocessing:
 
 1. Converting string values like Not Attempted to NA in numeric data columns.
 2. Subsetting data into background, suggestions, quantitative and qualitative divisions.
@@ -40,5 +40,7 @@ Data Preprocessing:
 5. Data type conversion from character to factor for qualitative data columns.
 6. Removing columns containing participants' background information, comments, suggestions and/or opinions.
 
+IV) Data Analysis:
 
+Exploratory and Confirmatory Factor Analysis were tried on the dataset after performing steps I,II and III. However, it was discovered that the factor analysis is unsuitable on the given dataset as the correlation matrix was singular. Hence, there was no more data analysis performed.
 
